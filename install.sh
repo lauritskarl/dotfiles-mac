@@ -22,7 +22,7 @@ ln -sf "$PWD/.config/ghostty/config" "$HOME/.config/ghostty/config"
 ln -sf "$PWD/.config/helix/config.toml" "$HOME/.config/helix/config.toml"
 ln -sf "$PWD/.config/zed/settings.json" "$HOME/.config/zed/settings.json"
 
-which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+command -v brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew bundle --global check || brew bundle --global
 
