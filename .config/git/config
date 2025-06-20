@@ -15,7 +15,7 @@
 [gpg "ssh"]
     allowedsignersfile = /Users/karl/.ssh/allowed_signers
 [core]
-    excludesfile = /Users/karl/.gitignore
+    excludesfile = /Users/karl/.config/git/ignore
     fsmonitor = true
     untrackedCache = true
 [merge]
