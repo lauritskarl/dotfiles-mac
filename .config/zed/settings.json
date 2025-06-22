@@ -1,4 +1,17 @@
 {
+  "ssh_connections": [
+    {
+      "host": "veeb.vhk.ee",
+      "username": "veebimeister",
+      "projects": [
+        {
+          "paths": [
+            "/var/www/drupal/vhkee"
+          ]
+        }
+      ]
+    }
+  ],
   "agent": {
     "model_parameters": [],
     "default_model": {
