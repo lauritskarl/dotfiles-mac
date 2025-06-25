@@ -1,4 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 export SHELL=fish
 export EDITOR=hx
 export PAGER=bat
