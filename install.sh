@@ -31,3 +31,5 @@ brew bundle --global check || brew bundle --global
 gh auth status || gh auth login --git-protocol https --hostname github.com --web
 
 gh extension install github/gh-copilot
+
+vagrant plugin install vagrant-libvirt
