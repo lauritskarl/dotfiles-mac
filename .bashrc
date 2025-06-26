@@ -4,4 +4,4 @@ eval "$(zoxide init bash --cmd cd)"
 export SHELL=fish
 export EDITOR=hx
 export PAGER=bat
-source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+source ~/.orbstack/shell/init.bash 2>/dev/null || :
