@@ -1,7 +1,3 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(mise activate bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash --cmd cd)"
-export SHELL=fish
-export EDITOR=hx
-export PAGER=bat
-source ~/.orbstack/shell/init.bash 2>/dev/null || :
